@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select:  none;
+}
+
+
+.header {
+    position:fixed;
+    width: 100%;
+    height: 6vw;
+    background: linear-gradient(135deg rgb(0, 0, 0));
+    z-index: 2;
+    backdrop-filter: blur(5px);
+}
+.logo {
+    position:fixed;
+    width: 4vw;
+    height: 4.7vw;
+    margin-left: 46vw;
+    margin-bottom: 0vw;
+    margin-top: .5vw;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.nav-first {
+    position: fixed;
+    color:white;
+    width: 30%;
+    display: flex;
+    justify-content:flex-start;
+    font-family: Roboto Condensed;
+    font-size: .9vw;
+    margin: 1.5vw 10%;
+    text-shadow:
+        -2px -2px 5px black,  
+        2px -2px 5px black,
+        -2px 2px 5px black,
+        2px 2px 5px black;
+}
+.nav-second {
+    position: fixed;
+    color:white;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboto Condensed;
+    font-size: .9vw;
+    margin: -.5% 10%;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+a{
+    margin: 0 2vw;
+    cursor: pointer;
+}
+.iPhone-section {
+    position: absolute;
+    margin-top: 0vw;;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+#iPhone{
+    position: static;
+    width: 100%;
+    height: 200vh;
+    margin-top: 0vw;
+    color:white;
+    background-color: rgb(14, 14, 14);
+    z-index: 2;
+}
+.iphoneElement {
+    position: absolute;
+    width: 50vw;
+    height: 35vw;
+    margin: 20vw 25vw ;
+    background-image: url("accets/iPhone-15-Pro-Review-Top-Gear.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .1s  ease-in;
+
+}
+.Aestetic{
+    position: absolute;
+    font-size: 500;
+    width: 30vw;
+    font-weight: 3vw;
+    color: white;
+    margin: 95vw 50vw;
+    transform: rotateZ(65deg);
+    font-family: Roboto Condensed;
+    z-index: -1;
+}
+.cool {
+    position: absolute;
+    font-size: 500;
+    width: 30vw;
+    font-weight: 3vw;
+    color: white;
+    margin: 102vw 20vw;
+    transform: rotateZ(65deg);
+    font-family: Roboto Condensed;
+    z-index: -1;
+}
+.iphone-15{
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+    font-weight: 500;
+    font-size: 3vw;
+    font-family: Roboto Condensed;
+    color: white;
+    margin: 60vw 41vw;
+}
+.default-iphone {
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 100px;
+    font-weight: 300;
+    font-size: 1.5vw;
+    font-family: Roboto Condensed;
+    color: white;
+    margin: 65vw 36vw;
+}
+.iphone-15-white{
+    position: absolute;
+    z-index: -1;
+    width: 720px;
+    height: 700px;
+    margin: 70vw 28vw;
+    background-image: url("accets/PNG.monsteriphone-15-plus-pro-pro-max-green png.png");
+    background-repeat: no-repeat;
+    transition: .2s ease-in;
+    
+}
+.iphone-15-white:hover {
+    background-image: url('accets/Screenshot_2023-09-16_at_13.26.43-Photoroom.png-Photoroom.png');
+    transform: rotateZ(-22deg);
+    margin: 65vw 37vw;
+    z-index: -1;
+    width: 720px;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.iphoneElement:hover {
+    position: absolute;
+    margin-top:19vw;
+    margin-left: 0vw;
+    width: 100%;
+    height: 65vh;
+    background-image: url('accets/iphone-15-pro-gray-Photoroom.png-Photoroom.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1; 
+    transform: scale(1.05);
+}
+.text-iphone {
+    position: absolute;
+    margin-left: 39vw;
+    font-family: Roboto Condensed;
+    font-weight: 600;
+    font-size: 3vw;
+    margin-top: 10vw;
+    z-index:0;
+}
+.text-info-iphone{
+    position: absolute;
+    margin-left: 36vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 15vw;
+    z-index: 0;
+}
+.text-info-more{
+    position: absolute;
+    margin-left: 61vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 15vw;
+}
+.text-info-more-iphone{
+    position: absolute;
+    margin-left: 59vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 65vw;
+}
+.text-info-more-iphone-buy{
+    position: absolute;
+    margin-left: 28vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 65vw;
+}
+.text-info-more-iphone-buy-iphone {
+    position: absolute;
+    margin-left: 28vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 15vw;
+}
+.vision-pro {
+    position: absolute;
+    margin-top: 100vw;;
+    width: 100%;
+    height:70vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url();
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.vision {
+    position: absolute;
+    width: 1200px;
+    height: 630px;
+    background-image: url(accets/apple-vision-pro__cctkg4nhnb7m_og.png);
+    background-repeat: no-repeat;
+    margin-left: 16vw;
+    margin-top: 1vw;
+    transition: .1s ease-in;
+}
+.vision-text-info {
+    position: absolute;
+    margin-left: 65vw;
+    color: black;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    font-size: 5vw;
+    margin-top: 15vw;
+}
+.section-market{
+    position: absolute;
+    width: 100%;
+    height: 100vw;
+    margin-top: 100vw;
+}
+.apple-img {
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    margin-top: 15vw;
+    margin-left: 58vw;
+    background-image: url(accets/15476.png);
+    background-repeat: no-repeat;
+}
+.watch {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-top: 20vw;
+    margin-left:1vw
+}
+.text-watch{
+    position: absolute;
+    font-family: Roboto Condensed;
+    color:white;
+    z-index: 1;
+    margin-top: 23vw;
+    margin-left: 31vw;
+    font-size:4vw;
+
+}
+.mac-book{
+    position: absolute;
+    width: 50vw;
+    height: 55vw;
+    margin-left: 47vw;
+    margin-top: 38vw;
+    background-image: url(accets/apple-macbook-pro-m3-chip-price-in-nepal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text-info-book{
+    font-weight: 400;
+    font-size: 4vw;
+    font-family: Fredoka;
+    margin-left: 12vw;
+}
+.text-info-more-book{
+    position: absolute;
+    margin-left: 15vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 23vw;
+    z-index: 2;
+}
+.text-info-more-book-buy{
+    position: absolute;
+    margin-left: 28vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 23vw;
+    z-index: 2;
+}
+.text-info-more-vision{
+    position: absolute;
+    margin-left: 64vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 22vw;
+    z-index: 2;
+}
+.text-info-more-vision-buy{
+    position: absolute;
+    margin-left: 75vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 22vw;
+    z-index: 2;
+}
+.text-watch span {
+    font-size:2vw;
+    color: rgb(214, 0, 0);
+    margin-left: 1.7vw;
+    z-index: 1;
+}
+.text-info-more-watch {
+    position: absolute;
+    margin-left: 3vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 39vw;
+    z-index: 2;
+}
+.text-info-more-watch-buy{
+    position: absolute;
+    margin-left: 5.5vw;
+    font-family: Fredoka;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin-top: 41vw;
+    z-index: 2;
+}
+.text-info-more-vision{
+
+}
+@media only screen and (max-width: 1080px) and (max-height: 1920px)
+{
+    .header {
+        position:fixed;
+        width: 10vw;
+        height: 10vw;
+        background-image: url('accets/menu-three-outlined-rounded-lines-symbol_icon-icons.com_73215.png');
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    a { 
+        margin: 0;
+    }
+    
+    .logo {
+        position:fixed;
+        width: 4vw;
+        height: 4.7vw;
+        margin-left: 46vw;
+        margin-bottom: 0vw;
+        margin-top: .5vw;
+        filter: drop-shadow(1px 1px 1px black);
+    }
+    .nav-first {
+        position: fixed;
+        color:transparent;
+        display: flex;
+        justify-content:flex-start;
+        font-family: Roboto Condensed;
+        
+        margin: 1.5vw 10%;
+    }
+    .iphoneElement {
+        position: absolute;
+        width: 100vw;
+        height: 100vw;
+        margin: 25vw 0vw;
+        background-image: url("accets/iPhone-15-Pro-Review-Top-Gear.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: .1s  ease-in;
+    }
+    .iphoneElement:hover {
+        position: absolute;
+        margin-top:19vw;
+        margin-left: 0vw;
+        width: 100%;
+        height: 65vh;
+        background-image: url('accets/iphone-15-pro-gray-Photoroom.png-Photoroom1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1; 
+        transform: scale(1.05);
+    }
+    .text-info-iphone{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        font-family: Fredoka;
+        font-weight: 400;
+        font-size: 4vw;
+        margin-top: 0.5vw;
+    }
+    .text-info-more{
+        position: absolute;
+        margin-left: 30vw;
+        font-family: Fredoka;
+        font-weight: 400;
+        font-size: 7.5vw;
+        margin-top: 15vw;
+    }
+    .iphone-15-white{
+        position: absolute;
+        
+        z-index: -1;
+        width: 0px;
+        height: 0px;
+        margin: 70vw 28vw;
+        background-image: ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: .2s ease-in;
+        
+    }
+    .text-iphone{
+        position: absolute;
+        margin-left: 27vw;
+        font-family: Roboto Condensed;
+        font-weight: 600;
+        font-size: 8vw;
+        margin-top: 10vw;
+        z-index:0;
+    }
+    .text-info-iphone{
+        position: absolute;
+        margin-left: 25.5vw;
+        font-family: Fredoka;
+        font-weight: 400;
+        font-size: 3vw;
+        margin-top: 20vw;
+        z-index: 0;
+    }
+    .Aestetic{
+        position: absolute;
+        font-size: 500;
+        width: 30vw;
+        font-weight: 3vw;
+        color: transparent;
+        margin: 95vw 50vw;
+        transform: rotateZ(65deg);
+        font-family: Roboto Condensed;
+        z-index: -1;
+    }
+    .cool {
+        position: absolute;
+        font-size: 500;
+        width: 0vw;
+        font-weight: 3vw;
+        color: transparent;
+        margin: 102vw 20vw;
+        transform: rotateZ(65deg);
+        font-family: Roboto Condensed;
+        z-index: -1;
+    }
+    .iphone-15{
+        position: absolute;
+        z-index: 1;
+        width: 0px;
+        height: 0px;
+        font-weight: 500;
+        font-size: 3vw;
+        font-family: Roboto Condensed;
+        color: transparent;
+        margin: 60vw 41vw;
+    }
+    .text-info-more-iphone-buy{
+        position: absolute;
+        margin-left: 28vw;
+        font-family: Fredoka;
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-top: 65vw;
+        color: transparent;
+    }
+    .text-info-more-iphone-buy-iphone {
+        position: absolute;
+        margin-left: 28vw;
+        font-family: Fredoka;
+        color: transparent;
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-top: 15vw;
+    }
+    .default-iphone {
+        position: absolute;
+        z-index: 1;
+        width: 0px;
+        height: 0px;
+        font-weight: 0;
+        font-size: 0vw;
+        font-family: Roboto Condensed;
+        color: transparent;
+        margin: 65vw 36vw;
+    }
+    .text-info-more{
+        position: absolute;
+        margin-left: 61vw;
+        font-family: Fredoka;
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-top: 15vw;
+        color:transparent;
+    }.text-info-more-iphone{
+        position: absolute;
+        margin-left: 61vw;
+        color: transparent;
+        font-family: Fredoka;
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-top: 15vw;
+    }
+}
