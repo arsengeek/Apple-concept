@@ -219,7 +219,7 @@ a{
     position: absolute;
     margin-top: 100vw;;
     width: 100%;
-    height:70vh;
+    height:50vw;
     background-color: rgb(255, 255, 255);
     background-image: url();
     background-repeat: no-repeat;
@@ -252,62 +252,92 @@ a{
 }
 .apple-img {
     position: absolute;
-    width: 110px;
-    height: 100px;
+    width: 7vw;
+    height: 7vw;
     margin-top: 15vw;
     margin-left: 58vw;
     background-image: url(accets/15476.png);
     background-repeat: no-repeat;
+    background-size: contain;
+}
+.watch-block {
+    position: absolute;
+    width: 47vw;
+    height: 33vw;
+    margin-left: 1vw;
+    margin-top: 35vw;
+    background-color: black;
 }
 .watch {
     position: absolute;
-    width: 800px;
-    height: 500px;
-    margin-top: 20vw;
-    margin-left:1vw
+    width: 47vw;
+    height: 27vw;
+    margin-top: 5vw;
+    margin-left:0vw
 }
 .text-watch{
     position: absolute;
     font-family: Roboto Condensed;
+    font-weight: 500;
     color:white;
     z-index: 1;
-    margin-top: 23vw;
-    margin-left: 31vw;
+    margin-top: 2vw;
+    margin-left: 19.5vw;
     font-size:4vw;
 
 }
-.mac-book{
+.text-watch-9-serice{
+    position: absolute;
+    font-family: Roboto Condensed;
+    color:rgb(255, 0, 0);
+    z-index: 1;
+    margin-top: 5vw;
+    margin-left:22vw;
+    font-size:1.5vw;
+}
+.mac-book-block{
     position: absolute;
     width: 50vw;
-    height: 55vw;
-    margin-left: 47vw;
-    margin-top: 38vw;
-    background-image: url(accets/apple-macbook-pro-m3-chip-price-in-nepal.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 10vw;
+    margin-left: 50vw;
+    margin-top: 34.3vw;
+    background-color: rgb(255, 255, 255);
 }
 .text-info-book{
     font-weight: 400;
     font-size: 4vw;
     font-family: Fredoka;
-    margin-left: 12vw;
+    margin-left: 11.5vw;
+    margin-top: 1.06vw;
+}
+.mac-book-image {
+    position: absolute;
+    z-index: 0;
+    margin-left: 2vw;
+}
+.text-info-book-back{
+    font-weight: 400;
+    font-size: 1.5vw;
+    font-family: Fredoka;
+    margin-left: 14.5vw;
+    margin-top: 0vw;
 }
 .text-info-more-book{
     position: absolute;
-    margin-left: 15vw;
+    margin-left: 19vw;
     font-family: Fredoka;
     font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: 23vw;
+    font-size: 1vw;
+    margin-top: 1vw;
     z-index: 2;
 }
 .text-info-more-book-buy{
     position: absolute;
-    margin-left: 28vw;
+    margin-left: 26vw;
     font-family: Fredoka;
     font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: 23vw;
+    font-size: 1vw;
+    margin-top: 1vw;
     z-index: 2;
 }
 .text-info-more-vision{
@@ -318,6 +348,14 @@ a{
     font-size: 1.5vw;
     margin-top: 22vw;
     z-index: 2;
+}
+.text-info-vision-back{
+    position: absolute;
+    font-family: Fredoka;
+    font-weight: 400;
+    margin-top: 16.5vw;
+    margin-left: 8vw;
+    font-size: 1.5vw;
 }
 .text-info-more-vision-buy{
     position: absolute;
@@ -336,20 +374,20 @@ a{
 }
 .text-info-more-watch {
     position: absolute;
-    margin-left: 3vw;
+    margin-left: 32vw;
     font-family: Fredoka;
     font-weight: 400;
     font-size: 1.5vw;
-    margin-top: 39vw;
+    margin-top:3vw;
     z-index: 2;
 }
 .text-info-more-watch-buy{
     position: absolute;
-    margin-left: 5.5vw;
+    margin-left: 13vw;
     font-family: Fredoka;
     font-weight: 400;
     font-size: 1.5vw;
-    margin-top: 41vw;
+    margin-top: 3vw;
     z-index: 2;
 }
 .text-info-more-vision{
