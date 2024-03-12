@@ -54,11 +54,23 @@
     margin: -.5% 10%;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 a{
     margin: 0 2vw;
     cursor: pointer;
+}
+.nav-a{
+    transition: .1s ease-in;
+}
+.nav-a:hover {
+    font-size: 1vw;
+    color:rgb(0, 0, 0);
+    text-shadow:
+        -2px -2px 5px rgb(255, 255, 255),  
+        2px -2px 5px rgb(255, 255, 255),
+        -2px 2px 5px rgb(255, 255, 255),
+        2px 2px 5px rgb(255, 255, 255);
 }
 .iPhone-section {
     position: absolute;
@@ -130,7 +142,7 @@ a{
     font-size: 1.5vw;
     font-family: Roboto Condensed;
     color: white;
-    margin: 65vw 36vw;
+    margin: 63.5vw 36vw;
 }
 .iphone-15-white{
     position: absolute;
@@ -167,7 +179,7 @@ a{
 }
 .text-iphone {
     position: absolute;
-    margin-left: 39vw;
+    margin-left: 40vw;
     font-family: Roboto Condensed;
     font-weight: 600;
     font-size: 3vw;
@@ -180,50 +192,50 @@ a{
     font-family: Fredoka;
     font-weight: 400;
     font-size: 1.5vw;
-    margin-top: 15vw;
+    margin-top: 13.5vw;
     z-index: 0;
 }
 .text-info-more{
     position: absolute;
-    margin-left: 61vw;
+    margin-left: 42vw;
     font-family: Fredoka;
     font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: 15vw;
+    font-size: 1vw;
+    margin-top: 15.5vw;
 }
 .text-info-more-iphone{
     position: absolute;
-    margin-left: 59vw;
+    margin-left: 41vw;
     font-family: Fredoka;
     font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: 65vw;
+    font-size: 1vw;
+    margin-top: 65.6vw;
 }
 .text-info-more-iphone-buy{
     position: absolute;
-    margin-left: 28vw;
+    margin-left: 50vw;
     font-family: Fredoka;
     font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: 65vw;
+    font-size: 1vw;
+    margin-top: 65.6vw;
 }
 .text-info-more-iphone-buy-iphone {
     position: absolute;
-    margin-left: 28vw;
+    margin-left: 51vw;
     font-family: Fredoka;
     font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: 15vw;
+    font-size: 1vw;
+    margin-top: 15.5vw;
 }
 .vision-pro {
     position: absolute;
     margin-top: 100vw;;
     width: 100%;
-    height:50vw;
+    height:30vw;
     background-color: rgb(255, 255, 255);
     background-image: url();
     background-repeat: no-repeat;
-    z-index: 0;
+    z-index: 1;
 }
 .vision {
     position: absolute;
@@ -249,6 +261,7 @@ a{
     width: 100%;
     height: 100vw;
     margin-top: 100vw;
+    background-color: white;
 }
 .apple-img {
     position: absolute;
@@ -298,47 +311,53 @@ a{
 .mac-book-block{
     position: absolute;
     width: 50vw;
-    height: 10vw;
-    margin-left: 50vw;
-    margin-top: 34.3vw;
-    background-color: rgb(255, 255, 255);
+    height: 33vw;
+    margin-left: 49vw;
+    margin-top: 35vw;
+    background-color: rgb(0, 0, 0);
 }
 .text-info-book{
     font-weight: 400;
     font-size: 4vw;
     font-family: Fredoka;
-    margin-left: 11.5vw;
+    margin-left: 12vw;
     margin-top: 1.06vw;
+    color: white;
 }
 .mac-book-image {
     position: absolute;
     z-index: 0;
-    margin-left: 2vw;
+    width: 50vw;
+    height: 30vw;
+    margin-left: 0vw;
 }
 .text-info-book-back{
     font-weight: 400;
     font-size: 1.5vw;
     font-family: Fredoka;
-    margin-left: 14.5vw;
+    margin-left: 15vw;
     margin-top: 0vw;
+    color: white;
 }
 .text-info-more-book{
     position: absolute;
-    margin-left: 19vw;
+    margin-left: 20vw;
     font-family: Fredoka;
     font-weight: 400;
     font-size: 1vw;
     margin-top: 1vw;
     z-index: 2;
+    
 }
 .text-info-more-book-buy{
     position: absolute;
-    margin-left: 26vw;
+    margin-left: 27vw;
     font-family: Fredoka;
     font-weight: 400;
     font-size: 1vw;
     margin-top: 1vw;
     z-index: 2;
+
 }
 .text-info-more-vision{
     position: absolute;
@@ -356,6 +375,7 @@ a{
     margin-top: 16.5vw;
     margin-left: 8vw;
     font-size: 1.5vw;
+    color: rgb(0, 0, 0);
 }
 .text-info-more-vision-buy{
     position: absolute;
@@ -376,7 +396,7 @@ a{
     position: absolute;
     margin-left: 32vw;
     font-family: Fredoka;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5vw;
     margin-top:3vw;
     z-index: 2;
@@ -392,6 +412,109 @@ a{
 }
 .text-info-more-vision{
 
+}
+.trade-in{
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    color:white;
+    margin-top: 70vw;
+}
+.info-trade-in{
+    position: absolute;
+    width: 20vw;
+    color:black;
+    font-family:Fredoka ;
+    font-size: 4vw;
+    font-weight: 400;
+    margin-left: 41vw;
+    margin-top: 
+}
+.info-trade-in-back {
+    width: 100%;
+    position: absolute;
+    color:black;
+    font-family:Fredoka ;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-left: 28.5vw;
+    margin-top: 5vw
+}
+.trade-in-image{
+    position: ;
+    margin-left: 0vw;
+    width: 100vw;
+    height: 45vw;
+
+}
+.text-info-more-trade-in{
+    position: absolute;
+    width: 100%;
+    font-family: Fredoka;
+    font-size: 1.3vw;
+    font-weight:400 ;
+    margin-top: 7.5vw;
+    margin-left: 39.5vw ;
+}
+.airpods-block{
+    position: absolute;
+    margin-top: 115vw;
+    width: 45vw;
+    height: 33vw;
+    margin-left: 2vw;
+    background-color: black;
+}
+.image-airpods{
+    width: 43vw;
+    height: 25vw;
+    margin-left: .8vw;
+    margin-top: 9vw;
+}
+.text-info-airpods{
+    position: absolute;
+    color: white;
+    font-family: Fredoka;
+    margin-left: 14.5vw;
+    margin-top: 3.5vw;
+    font-weight:400 ;
+    font-size: 3vw;
+}
+.text-info-airpods-back{
+    position: absolute;
+    font-family: Fredoka;
+    width: 40%;
+    font-weight:400 ;
+    font-size: 1.3vw;
+    margin-left: 14.3vw;
+    margin-top:7vw;
+    background: linear-gradient(60deg, rgb(255, 73, 73),rgb(234, 0, 255), rgb(0, 255, 242), rgb(9, 255, 0), yellow,  rgb(255, 94, 0));
+    background-clip: text;
+    color: transparent;
+}
+.text-info-airpods-back span{
+    position: absolute;
+    color:white;
+    font-family: Fredoka;
+    font-weight:400 ;
+    font-size: 1.3vw;
+
+
+}
+.text-info-more-airpods{
+    position: absolute;
+    font-family: Fredoka;
+    font-weight:400 ;
+    font-size: 1.1vw;
+    margin-top: 9vw;
+    margin-left: 16.5vw;
+}
+.text-info-more-airpods-buy{
+    position: absolute;
+    font-family: Fredoka;
+    font-weight:400 ;
+    font-size: 1.1vw;
+    margin-top: 9vw;
+    margin-left: 24vw;
 }
 @media only screen and (max-width: 1080px) and (max-height: 1920px)
 {
