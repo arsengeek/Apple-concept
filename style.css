@@ -61,7 +61,8 @@ a{
     cursor: pointer;
 }
 .nav-a{
-    transition: .1s ease-in;
+ 
+    transition: .3s ease;
 }
 .nav-a:hover {
     font-size: 1vw;
@@ -516,6 +517,54 @@ a{
     margin-top: 9vw;
     margin-left: 24vw;
 }
+.search-image{
+    position: fixed;
+    width: 2vw;
+    height: 2vw;
+    background-image: url('accets/search.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 83vw ;
+    margin-top: 1.8vw;
+    filter: drop-shadow(1px 1px 2px black);
+    transition: .1s ease-in;
+}
+ul {
+    transition: .5s ease-in;
+}
+.search-image:hover{
+    width: 2.1vw;
+    height: 2.1vw;
+    margin-left:82.9vw;
+    filter: drop-shadow(1px 0px 3px rgb(0, 0, 0));
+}
+.dropmenu {
+    transition: 2s ease-in;
+    display: none;
+    transition: opacity 1s ease, visibility 1s ease 2s; 
+    opacity: 0;
+    width: 0%;
+}
+.dropmenu.active {
+    display: block;
+    color: transparent;
+    z-index: 3;
+    transition: 2s ease-in;
+    position:fixed;
+    width: 100%;
+    margin-top: 1.2vw;
+    height: 30vw;
+    backdrop-filter: blur(5px); 
+    background-color: rgba(41, 41, 41, 0.5);
+    opacity: 1; 
+    box-shadow: 1px 1px 10px black;
+    
+}
+.dropmenu.active li {
+    margin: 10px 100px;
+    font-size: 2vw;
+}
+
 @media only screen and (max-width: 1080px) and (max-height: 1920px)
 {
     .header {

@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="accets/gsap/gsap.min.js"></script>
-    <script src="accets/gsap/ScrollTrigger.min.js"></script>
-    <script src="accets/gsap/ScrollSmoother.min.js"></script>
     <link  href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" >
     <link rel="shotcut icon" href="">
     <title>Apple</title>
@@ -14,7 +11,17 @@
     <header class="header">
         <img class='logo' src='accets/Apple_logo_grey.png' ><a> </a>
             <nav class="nav-first">
-                <a  class="nav-a">Store</a>
+                <a class="nav-a" id="storeLink">Store
+                    <ul class="dropmenu" id="storeMenu">
+                        <li><a href='...'>Mac</a></li>
+                        <li><a href='...'>iPhone</a></li>
+                        <li><a href='...'>iPad</a></li>>
+                        <li><a href='...'>Apple Watch</a></li>
+                        <li><a href='...'>Mac Book</a></li>
+                        <li><a href='...'>Apple Vision Pro</a></li>
+                        <li><a href='...'>Accessories</a></li>
+                    </ul>
+                </a>
                 <a class="nav-a">Mac</a>
                 <a class="nav-a">iPad</a>
                 <a class="nav-a">iPhone</a>
@@ -27,6 +34,7 @@
                 <a class="nav-a">Accessories</a>
                 <a class="nav-a">Support</a>
             </nav>
+            <a class="search-image"></a>
     </header>
 
     <section class="iPhone-section">
