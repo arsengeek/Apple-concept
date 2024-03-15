@@ -1,19 +1,21 @@
-const storeLink = document.getElementById('storeLink');
-const storeMenu = document.getElementById('storeMenu');
+const navLinks = document.querySelectorAll('.nav-a');
+const dropMenus = document.querySelectorAll('.dropmenu');
 
+// Добавляем обработчики событий для каждого навигационного элемента и его подменю
+navLinks.forEach((link, index) => {
+    link.addEventListener('mouseover', () => {
+        dropMenus[index].classList.add('active');
+    });
 
-storeLink.addEventListener('mouseover', () => {
-    storeMenu.classList.add('active');
-});
+    dropMenus[index].addEventListener('mouseover', () => {
+        dropMenus[index].classList.add('active');
+    });
 
-storeMenu.addEventListener('mouseover', () => {
-    storeMenu.classList.add('active');
-});
+    link.addEventListener('mouseout', () => {
+        dropMenus[index].classList.remove('active');
+    });
 
-storeLink.addEventListener('mouseout', () => {
-    storeMenu.classList.remove('active');
-});
-
-storeMenu.addEventListener('mouseout', () => {
-    storeMenu.classList.remove('active');
+    dropMenus[index].addEventListener('mouseout', () => {
+        dropMenus[index].classList.remove('active');
+    });
 });

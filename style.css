@@ -211,6 +211,7 @@ a{
     font-weight: 400;
     font-size: 1vw;
     margin-top: 65.6vw;
+    z-index: 2;
 }
 .text-info-more-iphone-buy{
     position: absolute;
@@ -219,6 +220,7 @@ a{
     font-weight: 400;
     font-size: 1vw;
     margin-top: 65.6vw;
+    z-index: 2;
 }
 .text-info-more-iphone-buy-iphone {
     position: absolute;
@@ -240,13 +242,15 @@ a{
 }
 .vision {
     position: absolute;
-    width: 1200px;
-    height: 630px;
+    width: 102vw;
+    height: 33vw;
     background-image: url(accets/apple-vision-pro__cctkg4nhnb7m_og.png);
     background-repeat: no-repeat;
+    background-size: contain;
     margin-left: 16vw;
     margin-top: 1vw;
     transition: .1s ease-in;
+    z-index: 0;
 }
 .vision-text-info {
     position: absolute;
@@ -256,6 +260,7 @@ a{
     font-weight: 400;
     font-size: 5vw;
     margin-top: 15vw;
+    z-index: 2;
 }
 .section-market{
     position: absolute;
@@ -373,6 +378,7 @@ a{
     position: absolute;
     font-family: Fredoka;
     font-weight: 400;
+    width: 50vw;
     margin-top: 16.5vw;
     margin-left: 8vw;
     font-size: 1.5vw;
@@ -429,7 +435,7 @@ a{
     font-size: 4vw;
     font-weight: 400;
     margin-left: 41vw;
-    margin-top: 
+    margin-top:; 
 }
 .info-trade-in-back {
     width: 100%;
@@ -550,7 +556,7 @@ ul {
     color: transparent;
     z-index: 3;
     transition: 2s ease-in;
-    position:fixed;
+    position:absolute;
     width: 100%;
     margin-top: 1.2vw;
     height: 30vw;
@@ -564,7 +570,53 @@ ul {
     margin: 10px 100px;
     font-size: 2vw;
 }
-
+.iPad-block{
+    position: absolute;
+    width: 25%;
+    height: 30vw;
+    z-index: 2;
+    margin-top: 119vw;
+    margin-left: 55vw;
+}
+.text-info-ipad{
+    font-size:3vw;
+    font-weight: 400;
+    font-family: Fredoka;
+    text-align: center;
+    color: white;
+}
+.text-info-ipad-back{
+    font-size:1.5vw;
+    font-weight: 400;
+    font-family: Fredoka;
+    text-align: center;
+    color: white;
+}
+.text-info-more-ipad{
+    position: absolute;
+    font-size: 1.1vw;
+    font-weight: 400;
+    font-family:Fredoka;
+    color: #0000EE;
+    margin-left: 7vw;
+    z-index: 1;
+    text-decoration: underline;
+}
+.text-info-buy-ipad{
+    font-size: 1.1vw;
+    font-weight: 400;
+    font-family:Fredoka;
+    margin-left: 14.5vw;
+    color: #0000EE;
+    z-index: 1;
+    text-decoration: underline;
+}
+.image-ipad{
+    width: 23vw;
+    height: 23vw;
+    z-index: 2;
+    margin-left: 1vw;
+}
 @media only screen and (max-width: 1080px) and (max-height: 1920px)
 {
     .header {
