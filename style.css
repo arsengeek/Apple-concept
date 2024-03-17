@@ -16,7 +16,7 @@
     width: 100%;
     height: 6vw;
     background: linear-gradient(135deg rgb(0, 0, 0));
-    z-index: 2;
+    z-index: 3;
     backdrop-filter: blur(5px);
 }
 .logo {
@@ -55,6 +55,7 @@
 }
 body {
     background-color: rgb(0, 0, 0);
+    z-index: 0;
 }
 a{
     margin: 0 2vw;
@@ -78,7 +79,7 @@ a{
     margin-top: 0vw;;
     width: 100%;
     height: 100vh;
-    z-index: -1;
+    z-index: 0;
 }
 #iPhone{
     position: static;
@@ -87,7 +88,7 @@ a{
     margin-top: 0vw;
     color:white;
     background-color: rgb(14, 14, 14);
-    z-index: 2;
+    z-index: -1;
 }
 .iphoneElement {
     position: absolute;
@@ -125,7 +126,7 @@ a{
 }
 .iphone-15{
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     width: 500px;
     height: 500px;
     font-weight: 500;
@@ -147,7 +148,7 @@ a{
 }
 .iphone-15-white{
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     width: 720px;
     height: 700px;
     margin: 70vw 28vw;
@@ -160,7 +161,7 @@ a{
     background-image: url('accets/Screenshot_2023-09-16_at_13.26.43-Photoroom.png-Photoroom.png');
     transform: rotateZ(-22deg);
     margin: 65vw 37vw;
-    z-index: -1;
+    z-index: 1;
     width: 720px;
     height: 1000px;
     background-repeat: no-repeat;
@@ -211,7 +212,7 @@ a{
     font-weight: 400;
     font-size: 1vw;
     margin-top: 65.6vw;
-    z-index: 2;
+    z-index: 1;
 }
 .text-info-more-iphone-buy{
     position: absolute;
@@ -220,7 +221,7 @@ a{
     font-weight: 400;
     font-size: 1vw;
     margin-top: 65.6vw;
-    z-index: 2;
+    z-index: 1;
 }
 .text-info-more-iphone-buy-iphone {
     position: absolute;
@@ -352,7 +353,7 @@ a{
     font-weight: 400;
     font-size: 1vw;
     margin-top: 1vw;
-    z-index: 2;
+    z-index: ;
     
 }
 .text-info-more-book-buy{
@@ -401,21 +402,23 @@ a{
 }
 .text-info-more-watch {
     position: absolute;
-    margin-left: 32vw;
+    margin-left: 31vw;
     font-family: Fredoka;
-    font-weight: 300;
-    font-size: 1.5vw;
-    margin-top:3vw;
+    font-weight: 400;
+    font-size: 1.2vw;
+    margin-top:8.6vw;
     z-index: 2;
+    rotate: 22deg;
 }
 .text-info-more-watch-buy{
     position: absolute;
     margin-left: 13vw;
     font-family: Fredoka;
     font-weight: 400;
-    font-size: 1.5vw;
-    margin-top: 3vw;
+    font-size: 1.2vw;
+    margin-top: 9.4vw;
     z-index: 2;
+    rotate: -18deg;
 }
 .text-info-more-vision{
 
@@ -616,6 +619,94 @@ ul {
     height: 23vw;
     z-index: 2;
     margin-left: 1vw;
+}
+.slider {
+    width: 95%;
+    height: 40vw;
+    overflow: hidden;
+    margin-top: 248vw;
+    border-radius: 30px;
+    border: 10px solid #fff;
+}
+.block-white{
+    width: 100%;
+    height: 60vw;
+    margin-top: 249vw;
+    border-radius: 30px;
+    z-index: -1;
+    background-color: white ;
+}
+.main {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,  -50%);
+}
+.navigation {
+    position: absolute;
+    bottom: 16px;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    height: 8px;
+    width: 30px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: rgb(94, 94, 94);
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: all .2s ease-in ;
+}
+.bar:hover {
+    opacity: 0.7;
+}
+input[name='r']{
+    position: absolute;
+    visibility:hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide {
+    width:100%;
+    transition: all .6s ease;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#r1:checked ~ .s1 {
+    margin-left:2%;
+}
+#r2:checked ~ .s1 {
+    margin-left: -19.7%;
+}
+#r3:checked ~ .s1 {
+    margin-left: -53%;
+    
+}
+#r4:checked ~ .s1 {
+    margin-left: -100%;
+}
+#r5:checked ~ .s1 {
+    margin-left: -500%;
+}
+#r6:checked ~ .s1 {
+    margin-left: -600%;
+}
+#r7:checked ~ .s1 {
+    margin-left: -700%;
+}
+.black-line-back{
+    display: block;
+    width: 100%;
+    height: 1vw;
+    background-color: black;
+    z-index: 2;
 }
 @media only screen and (max-width: 1080px) and (max-height: 1920px)
 {
